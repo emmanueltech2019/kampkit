@@ -497,9 +497,9 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 
 .tpcart-btn:hover,
 .tpcheck-btn:hover {
-    background-color: #b50833;
+    background-color: #B9D989;
     color: var(--tp-common-white);
-    border: 2px solid #b50833;
+    border: 2px solid #B9D989;
 }
 
 .tpcart-btn {

@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "title": "Bradley Burgess 2",
-        "imgf": "product-1.jpg",
-        "imgb": "product-2.jpg",
+        "title": "GYM BAG",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202745/Screenshot_2025-05-25_at_20.11.39_htju6p.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202745/Screenshot_2025-05-25_at_20.11.39_htju6p.png",
         "category": [
             {
                 "type": "Kids"
@@ -26,9 +26,9 @@
     },
     {
         "id": 2,
-        "title": "Allie Sharp",
-        "imgf": "product-3.jpg",
-        "imgb": "product-4.jpg",
+        "title": "BAG",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202746/Screenshot_2025-05-25_at_20.12.00_f7sejz.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202746/Screenshot_2025-05-25_at_20.12.00_f7sejz.png",
         "category": [
             {
                 "type": "Mens"
@@ -51,9 +51,9 @@
     },
     {
         "id": 3,
-        "title": "Nathaniel Baldwin",
-        "imgf": "product-5.jpg",
-        "imgb": "product-6.jpg",
+        "title": "BEDSHEETS AND PILLOW CASE",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202745/Screenshot_2025-05-25_at_20.11.05_ot9fnu.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202745/Screenshot_2025-05-25_at_20.11.05_ot9fnu.png",
         "category": [
             {
                 "type": "Womens"
@@ -76,9 +76,9 @@
     },
     {
         "id": 4,
-        "title": "Effie Rios",
-        "imgf": "product-7.jpg",
-        "imgb": "product-8.jpg",
+        "title": "3 IN 1 BOXER SHORTS",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202745/Screenshot_2025-05-25_at_20.11.30_lwpr1y.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202745/Screenshot_2025-05-25_at_20.11.30_lwpr1y.png",
         "category": [
             {
                 "type": "Mens"
@@ -101,9 +101,9 @@
     },
     {
         "id": 5,
-        "title": "Carolyn Goodwin",
-        "imgf": "product-9.jpg",
-        "imgb": "product-10.jpg",
+        "title": "POWER BANK",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202745/Screenshot_2025-05-25_at_20.11.47_gnernr.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202745/Screenshot_2025-05-25_at_20.11.47_gnernr.png",
         "category": [
             {
                 "type": "Kids"
@@ -126,9 +126,9 @@
     },
     {
         "id": 6,
-        "title": "Evelyn Patton",
-        "imgf": "product-11.jpg",
-        "imgb": "product-12.jpg",
+        "title": "SUN SHADES",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202745/Screenshot_2025-05-25_at_20.08.51_vgkryx.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202745/Screenshot_2025-05-25_at_20.08.51_vgkryx.png",
         "category": [
             {
                 "type": "Mens"
@@ -151,9 +151,9 @@
     },
     {
         "id": 7,
-        "title": "Sally Ray",
-        "imgf": "product-13.jpg",
-        "imgb": "product-14.jpg",
+        "title": "FOOD FLASK",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202745/Screenshot_2025-05-25_at_20.11.18_hvbhqs.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202745/Screenshot_2025-05-25_at_20.11.18_hvbhqs.png",
         "category": [
             {
                 "type": "Womens"
@@ -176,9 +176,9 @@
     },
     {
         "id": 8,
-        "title": "Ora Bowman",
-        "imgf": "product-15.jpg",
-        "imgb": "product-16.jpg",
+        "title": "PLASTIC BUCKETS",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202743/Screenshot_2025-05-25_at_20.09.18_pubbad.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202743/Screenshot_2025-05-25_at_20.09.18_pubbad.png",
         "category": [
             {
                 "type": "Mens"
@@ -201,9 +201,9 @@
     },
     {
         "id": 9,
-        "title": "Frederick Valdez",
-        "imgf": "product-17.jpg",
-        "imgb": "product-18.jpg",
+        "title": "LED FLASHLIGHT",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202743/Screenshot_2025-05-25_at_20.09.02_w9klob.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202743/Screenshot_2025-05-25_at_20.09.02_w9klob.png",
         "category": [
             {
                 "type": "Kids"
@@ -226,9 +226,9 @@
     },
     {
         "id": 10,
-        "title": "Terry Byrd",
-        "imgf": "product-19.jpg",
-        "imgb": "product-20.jpg",
+        "title": "WHITE RUBBER SHOE ",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202742/Screenshot_2025-05-25_at_20.04.11_n1tyzl.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202742/Screenshot_2025-05-25_at_20.04.11_n1tyzl.png",
         "category": [
             {
                 "type": "Womens"
@@ -251,9 +251,9 @@
     },
     {
         "id": 11,
-        "title": "Angel Jimenez",
-        "imgf": "product-21.jpg",
-        "imgb": "product-22.jpg",
+        "title": "BATHROOM TOWELS ",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202742/Screenshot_2025-05-25_at_20.08.40_hoiwua.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202742/Screenshot_2025-05-25_at_20.08.40_hoiwua.png",
         "category": [
             {
                 "type": "Kids"
@@ -276,9 +276,9 @@
     },
     {
         "id": 12,
-        "title": "Phoebe Arnold",
-        "imgf": "product-23.jpg",
-        "imgb": "product-24.jpg",
+        "title": "CHEST BAG ",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202741/Screenshot_2025-05-25_at_20.04.34_xwptfn.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202741/Screenshot_2025-05-25_at_20.04.34_xwptfn.png",
         "category": [
             {
                 "type": "Mens"
@@ -301,9 +301,9 @@
     },
     {
         "id": 13,
-        "title": "Cordelia Ryan",
-        "imgf": "product-25.jpg",
-        "imgb": "product-26.jpg",
+        "title": "WHITE LEATHER SHOES ",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202741/Screenshot_2025-05-25_at_20.03.59_qpkkuq.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202741/Screenshot_2025-05-25_at_20.03.59_qpkkuq.png",
         "category": [
             {
                 "type": "Womens"
@@ -326,9 +326,9 @@
     },
     {
         "id": 14,
-        "title": "Louisa Conner",
-        "imgf": "product-27.jpg",
-        "imgb": "product-28.jpg",
+        "title": "WHITE SINGLETS ",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202741/Screenshot_2025-05-25_at_20.05.51_nytpij.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202741/Screenshot_2025-05-25_at_20.05.51_nytpij.png",
         "category": [
             {
                 "type": "Mens"
@@ -351,9 +351,9 @@
     },
     {
         "id": 15,
-        "title": "Elnora Swanson",
-        "imgf": "product-29.jpg",
-        "imgb": "product-30.jpg",
+        "title": "FACE TOWELS ",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202741/Screenshot_2025-05-25_at_20.06.01_vfqpci.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202741/Screenshot_2025-05-25_at_20.06.01_vfqpci.png",
         "category": [
             {
                 "type": "Kids"
@@ -376,9 +376,9 @@
     },
     {
         "id": 16,
-        "title": "Georgie Olson",
-        "imgf": "product-31.jpg",
-        "imgb": "product-32.jpg",
+        "title": "ID CARD HOLDER ",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202739/Screenshot_2025-05-25_at_20.05.40_c0nzry.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202739/Screenshot_2025-05-25_at_20.05.40_c0nzry.png",
         "category": [
             {
                 "type": "Mens"
@@ -401,9 +401,9 @@
     },
     {
         "id": 17,
-        "title": "Frank Cummings",
-        "imgf": "product-33.jpg",
-        "imgb": "product-34.jpg",
+        "title": "WHITE SOCKS",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202739/Screenshot_2025-05-25_at_20.05.28_ykcqzn.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202739/Screenshot_2025-05-25_at_20.05.28_ykcqzn.png",
         "category": [
             {
                 "type": "Womens"
@@ -426,9 +426,9 @@
     },
     {
         "id": 18,
-        "title": "Lula Pope",
-        "imgf": "product-35.jpg",
-        "imgb": "product-36.jpg",
+        "title": "WATER BOTTLE(STAINLESS)",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202738/Screenshot_2025-05-25_at_20.05.16_b43y7l.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202738/Screenshot_2025-05-25_at_20.05.16_b43y7l.png",
         "category": [
             {
                 "type": "Mens"
@@ -451,9 +451,9 @@
     },
     {
         "id": 19,
-        "title": "Brian Silva",
-        "imgf": "product-37.jpg",
-        "imgb": "product-38.jpg",
+        "title": "WATER BOTTLE (PLASTIC)",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202738/Screenshot_2025-05-25_at_20.04.50_i4xsun.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202738/Screenshot_2025-05-25_at_20.04.50_i4xsun.png",
         "category": [
             {
                 "type": "Kids"
@@ -476,9 +476,9 @@
     },
     {
         "id": 20,
-        "title": "Pearl Bowen",
-        "imgf": "product-39.jpg",
-        "imgb": "product-40.jpg",
+        "title": "WATER BOTTLE(STAINLESS)",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202737/Screenshot_2025-05-25_at_20.05.04_ti46ir.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202737/Screenshot_2025-05-25_at_20.05.04_ti46ir.png",
         "category": [
             {
                 "type": "Womens"
@@ -501,9 +501,9 @@
     },
     {
         "id": 21,
-        "title": "Georgia Price",
-        "imgf": "product-41.jpg",
-        "imgb": "product-42.jpg",
+        "title": "WAIST POUCH ",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202736/Screenshot_2025-05-25_at_20.04.22_n09uqt.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202736/Screenshot_2025-05-25_at_20.04.22_n09uqt.png",
         "category": [
             {
                 "type": "Kids"
@@ -526,9 +526,9 @@
     },
     {
         "id": 22,
-        "title": "Kenneth Mitchell",
-        "imgf": "product-43.jpg",
-        "imgb": "product-44.jpg",
+        "title": "KK WHITE SHORTS",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202735/Screenshot_2025-05-25_at_20.03.49_nhm9q6.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202735/Screenshot_2025-05-25_at_20.03.49_nhm9q6.png",
         "category": [
             {
                 "type": "Mens"
@@ -551,9 +551,9 @@
     },
     {
         "id": 23,
-        "title": "Florence Sharp",
-        "imgf": "product-45.jpg",
-        "imgb": "product-46.jpg",
+        "title": "3 in 1 PLAIN WHITE T-SHIRTS",
+        "imgf": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202735/Screenshot_2025-05-25_at_20.02.58_fdfbvv.png",
+        "imgb": "https://res.cloudinary.com/wise-solution-inc/image/upload/v1748202735/Screenshot_2025-05-25_at_20.02.58_fdfbvv.png",
         "category": [
             {
                 "type": "Womens"
@@ -572,181 +572,6 @@
         "price": {
             "min": 0,
             "max": 40
-        }
-    },
-    {
-        "id": 24,
-        "title": "Myrtie Parks",
-        "imgf": "product-47.jpg",
-        "imgb": "product-48.jpg",
-        "category": [
-            {
-                "type": "Mens"
-            }
-        ],
-        "color": [
-            {
-                "type": "Green"
-            }
-        ],
-        "brand": [
-            {
-                "type": "Burberry"
-            }
-        ],
-        "price": {
-            "min": 0,
-            "max": 40
-        }
-    },
-    {
-        "id": 25,
-        "title": "Dollie Delgado",
-        "imgf": "product-49.jpg",
-        "imgb": "product-50.jpg",
-        "category": [
-            {
-                "type": "Kids"
-            }
-        ],
-        "color": [
-            {
-                "type": "Black"
-            }
-        ],
-        "brand": [
-            {
-                "type": "Adidas"
-            }
-        ],
-        "price": {
-            "min": 0,
-            "max": 50
-        }
-    },
-    {
-        "id": 26,
-        "title": "Jim Warner",
-        "imgf": "product-51.jpg",
-        "imgb": "product-52.jpg",
-        "category": [
-            {
-                "type": "Mens"
-            }
-        ],
-        "color": [
-            {
-                "type": "Red"
-            }
-        ],
-        "brand": [
-            {
-                "type": "Chloe"
-            }
-        ],
-        "price": {
-            "min": 0,
-            "max": 60
-        }
-    },
-    {
-        "id": 27,
-        "title": "Ryan Hale",
-        "imgf": "product-53.jpg",
-        "imgb": "product-54.jpg",
-        "category": [
-            {
-                "type": "Womens"
-            }
-        ],
-        "color": [
-            {
-                "type": "Blue"
-            }
-        ],
-        "brand": [
-            {
-                "type": "Balenciaga"
-            }
-        ],
-        "price": {
-            "min": 0,
-            "max": 70
-        }
-    },
-    {
-        "id": 28,
-        "title": "Louisa Ruiz",
-        "imgf": "product-55.jpg",
-        "imgb": "product-56.jpg",
-        "category": [
-            {
-                "type": "Mens"
-            }
-        ],
-        "color": [
-            {
-                "type": "Gray"
-            }
-        ],
-        "brand": [
-            {
-                "type": "Balmain"
-            }
-        ],
-        "price": {
-            "min": 0,
-            "max": 80
-        }
-    },
-    {
-        "id": 29,
-        "title": "Agnes Goodman",
-        "imgf": "product-57.jpg",
-        "imgb": "product-58.jpg",
-        "category": [
-            {
-                "type": "Kids"
-            }
-        ],
-        "color": [
-            {
-                "type": "Green"
-            }
-        ],
-        "brand": [
-            {
-                "type": "Burberry"
-            }
-        ],
-        "price": {
-            "min": 0,
-            "max": 90
-        }
-    },
-    {
-        "id": 30,
-        "title": "Augusta Tran",
-        "imgf": "product-59.jpg",
-        "imgb": "product-60.jpg",
-        "category": [
-            {
-                "type": "Womens"
-            }
-        ],
-        "color": [
-            {
-                "type": "Red"
-            }
-        ],
-        "brand": [
-            {
-                "type": "Chloe"
-            }
-        ],
-        "price": {
-            "min": 0,
-            "max": 100
         }
     }
 ]

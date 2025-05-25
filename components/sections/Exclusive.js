@@ -10,7 +10,7 @@ export default function Exclusive() {
                         <div className="col-lg-8 col-md-8">
                             <div className="exclusiveitem banner-animation p-relative mb-30">
                                 <div className="exclusiveitem__thumb">
-                                    <img src="/assets/img/banner/banner-offer-01.jpg" alt="" />
+                                    <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1748206711/1748204838048_jjkt2f.png" alt="" />
                                 </div>
                                 <div className="tpexclusive__content">
                                     <h4 className="tpexclusive__subtitle">Collection</h4>
@@ -24,7 +24,7 @@ export default function Exclusive() {
                         <div className="col-lg-4 col-md-4">
                             <div className="exclusivearea banner-animation p-relative mb-30">
                                 <div className="exclusivearea__thumb">
-                                    <img src="/assets/img/banner/banner-offer-02.jpg" alt="" />
+                                    <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1748206714/1748204910635_uwfaj1.png" alt="" />
                                 </div>
                                 <div className="tpexclusive__contentarea text-center">
                                     <h4 className="tpexclusive__subtitle subcolor">Discount</h4>

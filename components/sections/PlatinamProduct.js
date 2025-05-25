@@ -73,8 +73,8 @@ export default function PlatinamProduct() {
                                     <div className="tpratingitem tpproduct text-center">
                                         <div className="tpproduct__thumb p-relative">
                                             <Link href={`/shop/${item.id}`}>
-                                                <img src={`/assets/img/product/${item.imgf}`} alt="product-thumb" />
-                                                <img className="thumbitem-secondary" src={`/assets/img/product/${item.imgb}`} alt="product-thumb" />
+                                                <img src={`${item.imgf}`} alt="product-thumb" />
+                                                <img className="thumbitem-secondary" src={`${item.imgb}`} alt="product-thumb" />
                                             </Link>
                                             <div className="tpproduct__thumb-action">
                                                 <Link href="#" onClick={() => addToCart(item.id)}><i className="fal fa-shopping-basket" /></Link>

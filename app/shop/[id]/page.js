@@ -77,10 +77,10 @@ const ShopSingleDynamicV1 = () => {
                             <div className="col-lg-5 col-md-12">
                                 <div className="tpproduct-details__list-img">
                                     <div className="tpproduct-details__list-img-item">
-                                        <img src={`/assets/img/product/${product.imgf}`} alt="" />
+                                        <img src={`${product.imgf}`} alt="" />
                                     </div>
                                     <div className="tpproduct-details__list-img-item">
-                                        <img src={`/assets/img/product/${product.imgb}`} alt="" />
+                                        <img src={`${product.imgb}`} alt="" />
                                     </div>
                                 </div>
                             </div>

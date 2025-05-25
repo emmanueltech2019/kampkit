@@ -39,8 +39,8 @@ export default function Home2() {
                 <Slider2 />
                 <Banner1 />
                 <Product2 />
-                <Exclusive />
-                <Blog1 />
+                <Exclusive />   
+                {/* <Blog1 /> */}
                 <Brand1 />
             </Layout>
         </>

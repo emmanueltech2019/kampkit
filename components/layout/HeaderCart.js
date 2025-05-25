@@ -32,7 +32,7 @@ export default function HeaderCart({ isCartSidebar, handleCartSidebar }) {
                                     <li key={i}>
                                         <div className="tpcart__item">
                                             <div className="tpcart__img">
-                                                <img src={`/assets/img/product/${item.imgf}`} alt="" />
+                                                <img src={`${item.imgf}`} alt="" />
                                                 <div className="tpcart__del" onClick={() => deleteCartHandler(item?.id)}>
                                                     <Link href="#"><i className="far fa-times-circle" /></Link>
                                                 </div>

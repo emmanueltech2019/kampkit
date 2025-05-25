@@ -51,9 +51,9 @@ export default function Slider2() {
                                             </div>
                                             <div className="col-xl-7 col-lg-6 col-md-6 d-none d-md-block">
                                                 <div className="tpslidertwo__img p-relative text-end">
-                                                    <img src="/assets/img/slider/slider-01.png" alt="" />
+                                                    <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1748205638/NYSC_-_Feather_Impulse_r5bxgi.jpg" alt="" />
                                                     <div className="tpslidertwo__img-shape">
-                                                        <img src="/assets/img/slider/fasion-tag-01.png" alt="tag" />
+                                                        {/* <img src="/assets/img/slider/fasion-tag-01.png" alt="tag" /> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -80,9 +80,9 @@ export default function Slider2() {
                                             </div>
                                             <div className="col-xl-7 col-lg-6 col-md-6 d-none d-md-block">
                                                 <div className="tpslidertwo__img p-relative text-end">
-                                                    <img src="/assets/img/slider/slider-02.png" alt="" />
+                                                    <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1748205638/Apparel_Photos_-_Download_Free_High-Quality_Pictures___Freepik_wjkk0k.jpg" alt="" />
                                                     <div className="tpslidertwo__img-shape">
-                                                        <img src="/assets/img/slider/fasion-tag-01.png" alt="tag" />
+                                                        {/* <img src="/assets/img/slider/fasion-tag-01.png" alt="tag" /> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -109,9 +109,9 @@ export default function Slider2() {
                                             </div>
                                             <div className="col-xl-7 col-lg-6 col-md-6 d-none d-md-block">
                                                 <div className="tpslidertwo__img p-relative text-end">
-                                                    <img src="/assets/img/slider/slider-03.png" alt="" />
+                                                    <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1748205638/Apparel_Photos_-_Download_Free_High-Quality_Pictures___Freepik_wjkk0k.jpg" alt="" />
                                                     <div className="tpslidertwo__img-shape">
-                                                        <img src="/assets/img/slider/fasion-tag-01.png" alt="tag" />
+                                                        {/* <img src="/assets/img/slider/fasion-tag-01.png" alt="tag" /> */}
                                                     </div>
                                                 </div>
                                             </div>
