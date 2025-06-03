@@ -10,7 +10,7 @@ export default function Product2() {
     }
     return (
         <>
-            <section className="product-area pb-65">
+            <section className="product-area pb-65 pt-60">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 col-md-4">

@@ -9,7 +9,7 @@ export default function Banner1() {
                     <div className="row g-0">
                         <div className="col-lg-3 col-md-3">
                             <div className="banneritem__thumb banner-animation text-center p-relative">
-                                <img src="/assets/img/banner/banner-2-01.jpg" alt="" />
+                                <img src="/assets/img/banner/m-banner1.jpeg" alt="" />
                                 <div className="banneritem__content">
                                     <Link href="/shop"><i className="far fa-long-arrow-right" /></Link>
                                     <p>19 Items</p>
@@ -17,7 +17,7 @@ export default function Banner1() {
                                 </div>
                             </div>
                             <div className="banneritem__thumb banner-animation text-center p-relative">
-                                <img src="/assets/img/banner/banner-2-02.jpg" alt="" />
+                                <img src="/assets/img/banner/m-banner2.jpeg" alt="" />
                                 <div className="banneritem__content">
                                     <Link href="/shop-2"><i className="far fa-long-arrow-right" /></Link>
                                     <p>22 Items</p>
@@ -27,7 +27,7 @@ export default function Banner1() {
                         </div>
                         <div className="col-lg-6 col-md-6">
                             <div className="banneritem__thumb banner-animation text-center p-relative">
-                                <img src="/assets/img/banner/banner-2-03.jpg" alt="" />
+                                <img src="/assets/img/banner/m-banner3.jpeg" alt="" />
                                 <div className="banneritem__content banner-center">
                                     <Link href="/shop-2"><i className="far fa-long-arrow-right" /></Link>
                                     <p>30 Items</p>
@@ -37,7 +37,7 @@ export default function Banner1() {
                         </div>
                         <div className="col-lg-3 col-md-3">
                             <div className="banneritem__thumb banner-animation text-center p-relative">
-                                <img src="/assets/img/banner/banner-2-04.jpg" alt="" />
+                                <img src="/assets/img/banner/m-banner4.jpeg" alt="" />
                                 <div className="banneritem__content">
                                     <Link href="/shop-2"><i className="far fa-long-arrow-right" /></Link>
                                     <p>13 Items</p>

@@ -51,7 +51,7 @@ export default function Slider2() {
                                             </div>
                                             <div className="col-xl-7 col-lg-6 col-md-6 d-none d-md-block">
                                                 <div className="tpslidertwo__img p-relative text-end">
-                                                    <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1748205638/NYSC_-_Feather_Impulse_r5bxgi.jpg" alt="" />
+                                                    <img src="/assets/img/banner/m-banner1.jpeg" alt="" height="900"/>
                                                     <div className="tpslidertwo__img-shape">
                                                         {/* <img src="/assets/img/slider/fasion-tag-01.png" alt="tag" /> */}
                                                     </div>
@@ -80,7 +80,7 @@ export default function Slider2() {
                                             </div>
                                             <div className="col-xl-7 col-lg-6 col-md-6 d-none d-md-block">
                                                 <div className="tpslidertwo__img p-relative text-end">
-                                                    <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1748205638/Apparel_Photos_-_Download_Free_High-Quality_Pictures___Freepik_wjkk0k.jpg" alt="" />
+                                                    <img src="/assets/img/banner/m-banner2.jpeg" alt="" height="900" />
                                                     <div className="tpslidertwo__img-shape">
                                                         {/* <img src="/assets/img/slider/fasion-tag-01.png" alt="tag" /> */}
                                                     </div>
@@ -109,7 +109,7 @@ export default function Slider2() {
                                             </div>
                                             <div className="col-xl-7 col-lg-6 col-md-6 d-none d-md-block">
                                                 <div className="tpslidertwo__img p-relative text-end">
-                                                    <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1748205638/Apparel_Photos_-_Download_Free_High-Quality_Pictures___Freepik_wjkk0k.jpg" alt="" />
+                                                    <img src="/assets/img/banner/m-banner3.jpeg" alt="" height="900"/>
                                                     <div className="tpslidertwo__img-shape">
                                                         {/* <img src="/assets/img/slider/fasion-tag-01.png" alt="tag" /> */}
                                                     </div>
