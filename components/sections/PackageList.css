@@ -86,3 +86,53 @@
 .card-button:hover {
   background-color: #5aad3d;
 }
+/* RESPONSIVE DESIGN */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .card.otondo,
+  .card.corper,
+  .card.platoon {
+    width: 40vw;
+    height: auto;
+    padding-bottom: 60px;
+  }
+}
+
+/* Small Tablets and Phones */
+@media (max-width: 768px) {
+  .package-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card.otondo,
+  .card.corper,
+  .card.platoon {
+    width: 80vw;
+    height: 80vh;
+    padding-bottom: 60px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-price {
+    font-size: 18px;
+  }
+}
+
+/* Very Small Phones */
+@media (max-width: 480px) {
+  .card.otondo,
+  .card.corper,
+  .card.platoon {
+    width: 90vw;
+    height: 80vh;
+  }
+
+  .card-button {
+    width: 100%;
+  }
+}

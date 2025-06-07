@@ -39,9 +39,9 @@ export default function Slider2() {
                                             <div className="col-xl-5 col-lg-6 col-md-6 d-flex align-self-center">
                                                 <div className="tpslidertwo__item">
                                                     <div className="tpslidertwo__content">
-                                                        <h4 className="tpslidertwo__sub-title">Winter</h4>
-                                                        <h3 className="tpslidertwo__title mb-10">Exclusive <br /> Winter Collection</h3>
-                                                        <p>New Modern Stylist Fashionable Women's Wear holder</p>
+                                                        <h4 className="tpslidertwo__sub-title">Package</h4>
+                                                        <h3 className="tpslidertwo__title mb-10">Smart <br /> Corper</h3>
+                                                        <p>#20,000</p>
                                                         <div className="tpslidertwo__slide-btn">
                                                             <Link className="tp-btn banner-animation" href="/shop">Shop Now <i className="fal fa-long-arrow-right" />
                                                             </Link>
@@ -51,7 +51,7 @@ export default function Slider2() {
                                             </div>
                                             <div className="col-xl-7 col-lg-6 col-md-6 d-none d-md-block">
                                                 <div className="tpslidertwo__img p-relative text-end">
-                                                    <img src="/assets/img/banner/m-banner1.jpeg" alt="" height="900"/>
+                                                    <img src="/assets/img/banner/m-banner1.jpeg" alt="" height="700"/>
                                                     <div className="tpslidertwo__img-shape">
                                                         {/* <img src="/assets/img/slider/fasion-tag-01.png" alt="tag" /> */}
                                                     </div>
@@ -68,9 +68,9 @@ export default function Slider2() {
                                             <div className="col-xl-5 col-lg-6 col-md-6 d-flex align-self-center">
                                                 <div className="tpslidertwo__item">
                                                     <div className="tpslidertwo__content">
-                                                        <h4 className="tpslidertwo__sub-title">Winter</h4>
-                                                        <h3 className="tpslidertwo__title mb-10">Exclusive <br /> Women's Fashion</h3>
-                                                        <p>New Modern Stylist Fashionable Women's Wear holder</p>
+                                                        <h4 className="tpslidertwo__sub-title">Package</h4>
+                                                        <h3 className="tpslidertwo__title mb-10">SURVIVAL <br /> Pack Pro</h3>
+                                                        <p>#15,000</p>
                                                         <div className="tpslidertwo__slide-btn">
                                                             <Link className="tp-btn banner-animation" href="/shop">Shop Now <i className="fal fa-long-arrow-right" />
                                                             </Link>
@@ -80,7 +80,7 @@ export default function Slider2() {
                                             </div>
                                             <div className="col-xl-7 col-lg-6 col-md-6 d-none d-md-block">
                                                 <div className="tpslidertwo__img p-relative text-end">
-                                                    <img src="/assets/img/banner/m-banner2.jpeg" alt="" height="900" />
+                                                    <img src="/assets/img/banner/m-banner2.jpeg" alt="" height="700" />
                                                     <div className="tpslidertwo__img-shape">
                                                         {/* <img src="/assets/img/slider/fasion-tag-01.png" alt="tag" /> */}
                                                     </div>
@@ -97,9 +97,9 @@ export default function Slider2() {
                                             <div className="col-xl-5 col-lg-6 col-md-6 d-flex align-self-center">
                                                 <div className="tpslidertwo__item">
                                                     <div className="tpslidertwo__content">
-                                                        <h4 className="tpslidertwo__sub-title">Winter</h4>
-                                                        <h3 className="tpslidertwo__title mb-10">Exclusive <br /> Summer Collection</h3>
-                                                        <p>New Modern Stylist Fashionable Women's Wear holder</p>
+                                                        <h4 className="tpslidertwo__sub-title">Package</h4>
+                                                        <h3 className="tpslidertwo__title mb-10">Elite <br /> Camp Pro</h3>
+                                                        <p>#25,000</p>
                                                         <div className="tpslidertwo__slide-btn">
                                                             <Link className="tp-btn banner-animation" href="/shop">Shop Now <i className="fal fa-long-arrow-right" />
                                                             </Link>
@@ -109,7 +109,7 @@ export default function Slider2() {
                                             </div>
                                             <div className="col-xl-7 col-lg-6 col-md-6 d-none d-md-block">
                                                 <div className="tpslidertwo__img p-relative text-end">
-                                                    <img src="/assets/img/banner/m-banner3.jpeg" alt="" height="900"/>
+                                                    <img src="/assets/img/banner/m-banner3.jpeg" alt="" height="700"/>
                                                     <div className="tpslidertwo__img-shape">
                                                         {/* <img src="/assets/img/slider/fasion-tag-01.png" alt="tag" /> */}
                                                     </div>
