@@ -5,9 +5,11 @@ import FilterShopBox2 from "../shop/FilterShopBox2"
 
 export default function Product2() {
     const [activeIndex, setActiveIndex] = useState(1)
+
     const handleOnClick = (index) => {
         setActiveIndex(index)
     }
+
     return (
         <>
             <section className="product-area pb-65 pt-60">
@@ -38,22 +40,22 @@ export default function Product2() {
                     </div>
                     <div className="tab-content" id="nav-tabContent">
                         <div className={activeIndex == 1 ? "tab-pane fade show active" : "tab-pane fade"} id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
-                            <div className="row row-cols-xxl-5 row-cols-xl-4 row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-1 tpproduct">
+                            <div className="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 tpproduct">
                                 <FilterShopBox2 itemStart={0} itemEnd={10} />
                             </div>
                         </div>
                         <div className={activeIndex == 2 ? "tab-pane fade show active" : "tab-pane fade"} id="nav-popular" role="tabpanel" aria-labelledby="nav-popular-tab">
-                            <div className="row row-cols-xxl-5 row-cols-xl-4 row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-1 tpproduct">
+                            <div className="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 tpproduct">
                                 <FilterShopBox2 itemStart={0} itemEnd={10} />
                             </div>
                         </div>
                         <div className={activeIndex == 3 ? "tab-pane fade show active" : "tab-pane fade"} id="nav-sale" role="tabpanel" aria-labelledby="nav-sale-tab">
-                            <div className="row row-cols-xxl-5 row-cols-xl-4 row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-1 tpproduct">
+                            <div className="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 tpproduct">
                                 <FilterShopBox2 itemStart={0} itemEnd={10} />
                             </div>
                         </div>
                         <div className={activeIndex == 4 ? "tab-pane fade show active" : "tab-pane fade"} id="nav-rate" role="tabpanel" aria-labelledby="nav-rate-tab">
-                            <div className="row row-cols-xxl-5 row-cols-xl-4 row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-1 tpproduct">
+                            <div className="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 tpproduct">
                                 <FilterShopBox2 itemStart={0} itemEnd={10} />
                             </div>
                         </div>

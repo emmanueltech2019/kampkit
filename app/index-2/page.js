@@ -12,7 +12,7 @@ export default function Home2() {
 
     return (
         <>
-            <Layout headerStyle={3} footerStyle={2}>
+            <Layout headerStyle={2} footerStyle={2}>
                 <Slider2 />
                 <Packages/>
                 {/* <Banner1 /> */}

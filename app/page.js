@@ -30,7 +30,7 @@ import Brand1 from "@/components/sections/Brand1"
 import Exclusive from "@/components/sections/Exclusive"
 import PackageList from "@/components/sections/Packages"
 import Product2 from "@/components/sections/Product2"
-import Slider2 from "@/components/sections/Slider2"
+import Slider2 from "@/components/sections/Slider3"
 import Link from "next/link"
 export default function Home2() {
 

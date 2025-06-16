@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useState } from "react"
-import InputRange from "react-input-range"
+// import InputRange from "react-input-range"
 import { useDispatch, useSelector } from "react-redux"
 import { addprice } from "../../features/filterSlice"
 
@@ -28,13 +28,13 @@ const PriceRangeSlider = () => {
 
     return (
         <div className="range-slider-one">
-            <InputRange
+            {/* <InputRange
                 formatLabel={(value) => ``}
                 minValue={0}
                 maxValue={100}
                 value={{ min: price.min, max: price.max }}
                 onChange={(value) => handleOnChange(value)}
-            />
+            /> */}
 
             <div className="input-outer">
                 <div className="amount-outer">

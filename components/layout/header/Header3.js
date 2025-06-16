@@ -13,7 +13,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
     return (
         <>
             <header>
-                <div className="header-top tertiary-header-top space-bg " style={{backgrounColor:"#b9b989"}}>
+                <div className="header-top tertiary-header-top space-bg " style={{backgrounColor:"#464e2d"}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-7 col-lg-12 col-md-12 ">

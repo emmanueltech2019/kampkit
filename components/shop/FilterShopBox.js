@@ -233,7 +233,7 @@ const FilterShopBox = () => {
                             }
                         </div>
                         <div className={activeIndex == 2 ? "tab-pane fade show active" : "tab-pane fade"}>
-                            <div className="row row-cols-xxl-4 row-cols-xl-4 row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-1 tpproduct">
+                            <div className="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 tpproduct">
                                 {
                                     products
                                         ?.filter(priceFilter)
