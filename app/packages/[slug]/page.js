@@ -80,6 +80,7 @@ const PackageDetail = () => {
 
   return (
     <>
+    
      <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Packages">
       <div className="package-detail-container">
         <div className="package-left">
