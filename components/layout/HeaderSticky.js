@@ -113,7 +113,7 @@ useEffect(() => {
                                     </button>
                                       {/* Show only if not logged in */}
 {isMounted && !isLoggedIn && (
-  <button className="header-cart p-relative tp-cart-toggle" style={{padding:"10px 0px 10px 20px"}} >
+  <button className="header-cart p-relative tp-cart-toggle" style={{padding:"10px 0px 10px 15px"}} >
     <Link href={'/sign-in'}>
     <i className="fal fa-user" />
     </Link>
@@ -121,7 +121,7 @@ useEffect(() => {
 )}
 
 {isMounted && isLoggedIn && (
-  <button className="header-cart p-relative tp-cart-toggle" style={{padding:"10px 0px 10px 20px"}} onClick={() => {
+  <button className="header-cart p-relative tp-cart-toggle" style={{padding:"10px 0px 10px 15px"}} onClick={() => {
     localStorage.removeItem("token");
     window.location.reload(); // or setIsLoggedIn(false)
   }}>

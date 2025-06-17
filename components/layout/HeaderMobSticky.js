@@ -40,7 +40,7 @@ useEffect(() => {
                                             <CartShow />
                                         </button>
                                         {isMounted && !isLoggedIn && (
-  <button className="header-cart p-relative tp-cart-toggle" style={{padding:"10px 0px 10px 30px"}} >
+  <button className="header-cart p-relative tp-cart-toggle" style={{padding:"10px 0px 10px 15px"}} >
     <Link href={'/sign-in'}>
     <i className="fal fa-user" />
     </Link>
