@@ -141,7 +141,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isCart
                                             </nav>
                                         </div>
                                         <div className="mainmenu__logo">
-                                            <Link href="/"><img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1748052324/Screenshot_2025-05-24_at_02.59.44-removebg-preview_g5kpqn.png" alt="" style={{width:"200px"}}/></Link>
+                                            <Link href="/"><img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1748052324/Screenshot_2025-05-24_at_02.59.44-removebg-preview_g5kpqn.png" alt="" style={{width:"150px"}}/></Link>
                                         </div>
                                     </div>
                                 </div>
