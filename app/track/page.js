@@ -24,16 +24,16 @@ export default function Track() {
                                             </div>
                                         </div>
                                         <div className="tptrack__id mb-10">
-                                            <form action="#">
+                                            <div action="#">
                                                 <span><i className="fal fa-address-card" /></span>
                                                 <input type="text" placeholder="Order ID" />
-                                            </form>
+                                            </div>
                                         </div>
                                         <div className="tptrack__email mb-10">
-                                            <form action="#">
+                                            <div action="#">
                                                 <span><i className="fal fa-envelope" /></span>
                                                 <input type="email" placeholder="Billing email" />
-                                            </form>
+                                            </div>
                                         </div>
                                         <div className="tptrack__btn">
                                             <button className="tptrack__submition">Track Now<i className="fal fa-long-arrow-right" /></button>

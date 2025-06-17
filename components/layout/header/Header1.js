@@ -146,8 +146,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                     <ul className="submenu">
                                                         <li><Link href="/shop">Shop</Link></li>
                                                         <li><Link href="/shop-2">Shop 2</Link></li>
-                                                        <li><Link href="/shop-details">Shop Details </Link></li>
-                                                        <li><Link href="/shop-details-2">Shop Details 2</Link></li>
+                                                        <li><Link href="#">Shop Details </Link></li>
+                                                        <li><Link href="#-2">Shop Details 2</Link></li>
                                                         <li><Link href="/shop-location">Shop Location</Link></li>
                                                         <li><Link href="/cart">Cart</Link></li>
                                                         <li><Link href="/sign-in">Sign In</Link></li>
@@ -164,8 +164,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                             <ul>
                                                                 <li><Link href="/shop">Shop filters v1</Link></li>
                                                                 <li><Link href="/shop-2">Shop filters v2</Link></li>
-                                                                <li><Link href="/shop-details">Shop sidebar</Link></li>
-                                                                <li><Link href="/shop-details-2">Shop Right sidebar</Link></li>
+                                                                <li><Link href="#">Shop sidebar</Link></li>
+                                                                <li><Link href="#-2">Shop Right sidebar</Link></li>
                                                                 <li><Link href="/shop-location">Shop List view</Link></li>
                                                             </ul>
                                                         </li>

@@ -13,8 +13,8 @@ const ShopCard = ({ item, addToCart, addToWishlist }) => {
                             <div className="tpproduct__thumb-bg">
                                 <div className="tpproductactionbg">
                                     <a onClick={() => addToCart(item.id)} className="add-to-cart"><i className="fal fa-shopping-basket" /></a>
-                                    <Link href="#"><i className="fal fa-exchange" /></Link>
-                                    <Link href="#"><i className="fal fa-eye" /></Link>
+                                    {/* <Link href="#"><i className="fal fa-exchange" /></Link> */}
+                                    {/* <Link href="#"><i className="fal fa-eye" /></Link> */}
                                     <a onClick={() => addToWishlist(item.id)} className="wishlist" ><i className="fal fa-heart" /></a>
                                 </div>
                             </div>

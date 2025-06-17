@@ -38,7 +38,7 @@ export default function HeaderCart({ isCartSidebar, handleCartSidebar }) {
                                                 </div>
                                             </div>
                                             <div className="tpcart__content">
-                                                <span className="tpcart__content-title"><Link href="/shop-details">{item.title}</Link>
+                                                <span className="tpcart__content-title"><Link href="#">{item.title}</Link>
                                                 </span>
                                                 <div className="tpcart__cart-price">
                                                     <span className="quantity">{item?.qty} x </span>

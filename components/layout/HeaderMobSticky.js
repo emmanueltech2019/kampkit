@@ -1,7 +1,21 @@
 import Link from "next/link"
 import CartShow from "../elements/CartShow"
+import { useState, useEffect } from "react";
 
 export default function HeaderMobSticky({ scroll, isMobileMenu, handleMobileMenu, isCartSidebar, handleCartSidebar }) {
+      const [isLoggedIn, setIsLoggedIn] = useState(false);
+const [isMounted, setIsMounted] = useState(false);
+
+useEffect(() => {
+  setIsMounted(true);
+  const token = localStorage.getItem("token");
+  console.log("Token:", token);
+  if (token) {
+    setIsLoggedIn(true);
+  } else {
+    setIsLoggedIn(false);
+  }
+}, []);
     return (
         <>
             <div id="header-mob-sticky" className={`tp-md-lg-header d-md-none pt-20 pb-20 ${scroll ? "header-sticky" : ""}`}>
@@ -25,7 +39,22 @@ export default function HeaderMobSticky({ scroll, isMobileMenu, handleMobileMenu
                                             <i className="fal fa-shopping-cart" />
                                             <CartShow />
                                         </button>
-                                        <Link href="/sign-in"><i className="fal fa-user" /></Link>
+                                        {isMounted && !isLoggedIn && (
+  <button className="header-cart p-relative tp-cart-toggle" style={{padding:"10px 0px 10px 30px"}} >
+    <Link href={'/sign-in'}>
+    <i className="fal fa-user" />
+    </Link>
+  </button>
+)}
+
+{isMounted && isLoggedIn && (
+  <button className="header-cart p-relative tp-cart-toggle" style={{padding:"10px 0px 10px 15px"}} onClick={() => {
+    localStorage.removeItem("token");
+    window.location.reload(); // or setIsLoggedIn(false)
+  }}>
+    <i className="fal fa-sign-out" />
+  </button>
+)}
                                     </div>
                                 </div>
                             </div>

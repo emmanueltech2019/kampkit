@@ -2,7 +2,7 @@
 import CartShow from "@/components/elements/CartShow"
 import WishListShow from "@/components/elements/WishListShow"
 import Link from "next/link"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import HeaderMobSticky from "../HeaderMobSticky"
 import HeaderSticky from "../HeaderSticky"
 import HeaderTabSticky from "../HeaderTabSticky"
@@ -10,6 +10,20 @@ import HeaderTabSticky from "../HeaderTabSticky"
 export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCartSidebar, handleCartSidebar }) {
     const [isToggled, setToggled] = useState(false)
     const handleToggle = () => setToggled(!isToggled)
+
+          const [isLoggedIn, setIsLoggedIn] = useState(false);
+const [isMounted, setIsMounted] = useState(false);
+
+useEffect(() => {
+  setIsMounted(true);
+  const token = localStorage.getItem("token");
+  console.log("Token:", token);
+  if (token) {
+    setIsLoggedIn(true);
+  } else {
+    setIsLoggedIn(false);
+  }
+}, []);
     return (
         <>
             <header>
@@ -68,7 +82,22 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                 <i className="fal fa-shopping-cart" />
                                                 <CartShow />
                                             </button>
-                                            <Link href="/sign-in"><i className="fal fa-user" /></Link>
+                                           {isMounted && !isLoggedIn && (
+  <button className="header-cart p-relative tp-cart-toggle" style={{padding:"10px 0px 10px 30px"}} >
+    <Link href={'/sign-in'}>
+    <i className="fal fa-user" />
+    </Link>
+  </button>
+)}
+
+{isMounted && isLoggedIn && (
+  <button className="header-cart p-relative tp-cart-toggle" style={{padding:"10px 0px 10px 15px"}} onClick={() => {
+    localStorage.removeItem("token");
+    window.location.reload(); // or setIsLoggedIn(false)
+  }}>
+    <i className="fal fa-sign-out" />
+  </button>
+)}
                                             <Link href="/wishlist" className="header-cart p-relative tp-cart-toggle">
                                                 <i className="fal fa-heart" />
                                                 <WishListShow />
@@ -127,8 +156,8 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                 {/* <ul className="submenu">
                                                     <li><Link href="/shop">Shop</Link></li>
                                                     <li><Link href="/shop-2">Shop 2</Link></li>
-                                                    <li><Link href="/shop-details">Shop Details </Link></li>
-                                                    <li><Link href="/shop-details-2">Shop Details 2</Link></li>
+                                                    <li><Link href="#">Shop Details </Link></li>
+                                                    <li><Link href="#-2">Shop Details 2</Link></li>
                                                     <li><Link href="/shop-location">Shop Location</Link></li>
                                                     <li><Link href="/cart">Cart</Link></li>
                                                     <li><Link href="/sign-in">Sign In</Link></li>
@@ -146,8 +175,8 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                         <ul>
                                                             <li><Link href="/shop">Shop filters v1</Link></li>
                                                             <li><Link href="/shop-2">Shop filters v2</Link></li>
-                                                            <li><Link href="/shop-details">Shop sidebar</Link></li>
-                                                            <li><Link href="/shop-details-2">Shop Right sidebar</Link></li>
+                                                            <li><Link href="#">Shop sidebar</Link></li>
+                                                            <li><Link href="#-2">Shop Right sidebar</Link></li>
                                                             <li><Link href="/shop-location">Shop List view</Link></li>
                                                         </ul>
                                                     </li>

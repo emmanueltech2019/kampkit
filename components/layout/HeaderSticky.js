@@ -1,8 +1,22 @@
 import Link from "next/link"
 import CartShow from "../elements/CartShow"
 import WishListShow from "../elements/WishListShow"
+import { useState, useEffect } from "react";
 
 export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar }) {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+const [isMounted, setIsMounted] = useState(false);
+
+useEffect(() => {
+  setIsMounted(true);
+  const token = localStorage.getItem("token");
+  console.log("Token:", token);
+  if (token) {
+    setIsLoggedIn(true);
+  } else {
+    setIsLoggedIn(false);
+  }
+}, []);
     return (
         <>
             <div id="header-sticky" className={`logo-area tp-sticky-one mainmenu-5 ${scroll ? "header-sticky" : ""}`}>
@@ -32,8 +46,8 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                                 {/* <ul className="submenu">
                                                     <li><Link href="/shop">Shop</Link></li>
                                                     <li><Link href="/shop-2">Shop 2</Link></li>
-                                                    <li><Link href="/shop-details">Shop Details </Link></li>
-                                                    <li><Link href="/shop-details-2">Shop Details 2</Link></li>
+                                                    <li><Link href="#">Shop Details </Link></li>
+                                                    <li><Link href="#-2">Shop Details 2</Link></li>
                                                     <li><Link href="/shop-location">Shop Location</Link></li>
                                                     <li><Link href="/cart">Cart</Link></li>
                                                     <li><Link href="/sign-in">Sign In</Link></li>
@@ -51,8 +65,8 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                                         <ul>
                                                             <li><Link href="/shop">Shop filters v1</Link></li>
                                                             <li><Link href="/shop-2">Shop filters v2</Link></li>
-                                                            <li><Link href="/shop-details">Shop sidebar</Link></li>
-                                                            <li><Link href="/shop-details-2">Shop Right sidebar</Link></li>
+                                                            <li><Link href="#">Shop sidebar</Link></li>
+                                                            <li><Link href="#-2">Shop Right sidebar</Link></li>
                                                             <li><Link href="/shop-location">Shop List view</Link></li>
                                                         </ul>
                                                     </li>
@@ -97,7 +111,23 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                         <i className="fal fa-shopping-cart" />
                                         <CartShow />
                                     </button>
-                                    <Link href="/sign-in"><i className="fal fa-user" /></Link>
+                                      {/* Show only if not logged in */}
+{isMounted && !isLoggedIn && (
+  <button className="header-cart p-relative tp-cart-toggle" style={{padding:"10px 0px 10px 20px"}} >
+    <Link href={'/sign-in'}>
+    <i className="fal fa-user" />
+    </Link>
+  </button>
+)}
+
+{isMounted && isLoggedIn && (
+  <button className="header-cart p-relative tp-cart-toggle" style={{padding:"10px 0px 10px 20px"}} onClick={() => {
+    localStorage.removeItem("token");
+    window.location.reload(); // or setIsLoggedIn(false)
+  }}>
+    <i className="fal fa-sign-out" />
+  </button>
+)}
                                     <Link href="/wishlist" className="header-cart p-relative tp-cart-toggle">
                                         <i className="fal fa-heart" />
                                         <WishListShow />

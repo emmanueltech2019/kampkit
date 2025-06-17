@@ -23,19 +23,19 @@ const CartItems = () => {
             {cart?.map((item) => (
                 <tr className="cart-item" key={item.id}>
                     <td className="product-thumbnail">
-                        <Link href={`/shop/${item.id}`}>
+                        {/* <Link href={`/shop/${item.id}`}> */}
                             <img 
                             src={`${item.imgf}`} alt="cart added product" />
-                        </Link>
+                        {/* </Link> */}
                     </td>
 
                     <td className="product-name">
-                        <Link href={`/shop/${item.id}`}>
+                        {/* <Link href={`/shop/${item.id}`}> */}
                             {item.title}
-                        </Link>
+                        {/* </Link> */}
                     </td>
 
-                    <td className="product-price">${item.price.max}</td>
+                    <td className="product-price">₦{item.price.max}</td>
 
                     <td className="product-quantity">
                         <div className="item-quantity">
@@ -54,7 +54,7 @@ const CartItems = () => {
 
                     <td className="product-subtotal"> 
                         <span className="amount">
-                            ${(item?.qty * item?.price.max).toFixed(2)}
+                            ₦{(item?.qty * item?.price.max).toFixed(2)}
                         </span>
                     </td>
 

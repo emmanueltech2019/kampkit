@@ -1,4 +1,7 @@
 "use client"
+import { useDispatch } from "react-redux";
+import { addCart } from "../../../features/shopSlice"; // adjust the path if needed
+
 import { useSearchParams, useParams } from "next/navigation";
 import { useState } from "react";
 import Layout from "@/components/layout/Layout"
@@ -6,7 +9,10 @@ import "./PackageDetail.css";
 const packages = {
   "survival-park-pro": {
     title: "SURVIVAL PARK PRO",
-    price: "#15,000",
+    price: { 
+      "min": 15000,
+      "max": 15000
+    },
     image:"/assets/img/banner/m-banner2.jpeg",
     items: [
       "3-in-1 plain white T-shirt",
@@ -22,7 +28,10 @@ const packages = {
   "smart-corper": {
     title: "SMART CORPER",
     image:"/assets/img/banner/m-banner1.jpeg",
-    price: "#20,000",
+    price: { 
+      "min": 20000,
+      "max": 20000
+    },
     items: [
       "3-in-1 T-shirt",
       "3 KK White Shorts",
@@ -36,9 +45,12 @@ const packages = {
       "1 bathroom Towel",
     ],
   },
-  "platoon-commander-package": {
-    title: "PLATOON COMMANDER PACKAGE",
-    price: "#25,000",
+  "elite-camp-kit": {
+    title: "Elite Camp Kits",
+   price: { 
+      "min": 25000,
+      "max": 25000
+    },
     image:"/assets/img/banner/m-banner3.jpeg",
     items: [
       "3-in-1 T-shirt (X2)",
@@ -56,7 +68,9 @@ const packages = {
   },
 };
 
-const PackageDetail = () => {
+const PackageDetail = ({}) => {
+  const dispatch = useDispatch();
+
   const { slug } = useParams();
   const pack = packages[slug];
 
@@ -67,16 +81,26 @@ const PackageDetail = () => {
 
   if (!pack) return <p>Loading...</p>;
 
-  const handleAddToCart = () => {
-    const selected = {
-      package: pack.title,
-      shirtSize,
-      shortsSize,
-      shoeSize,
-      quantity,
-    };
-    console.log("Added to cart:", selected);
+const handleAddToCart = () => {
+  if (!shirtSize || !shortsSize || !shoeSize) {
+    alert("Please select all required sizes.");
+    return;
+  }
+  console.log(pack.price.min)
+  const cartProduct = {
+    id: slug, // Unique identifier
+    title: pack.title,
+    imgf: pack.image,
+    price: pack.price,
+    items: pack.items,
+    shirtSize,
+    shortsSize,
+    shoeSize,
   };
+
+  dispatch(addCart({ product: cartProduct, qty: quantity }));
+};
+
 
   return (
     <>
@@ -95,7 +119,7 @@ const PackageDetail = () => {
 
         <div className="package-right">
           <h1 className="package-title">{pack.title}</h1>
-          <p className="package-price">{pack.price}</p>
+          <p className="package-price">{pack.price.min}</p>
 
           <div className="form-section">
             <div className="form-group">
@@ -136,7 +160,7 @@ const PackageDetail = () => {
               <button onClick={() => setQuantity(quantity + 1)}>+</button>
             </div>
 
-            <p className="final-price">Final total: {pack.price}</p>
+            <p className="final-price">Final total: {pack.price.price}</p>
 
             <button className="add-to-cart" onClick={handleAddToCart}>
               ADD TO CART

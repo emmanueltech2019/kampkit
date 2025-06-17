@@ -60,11 +60,11 @@ export default function WhiteProduct() {
                             <SwiperSlide>
                                 <div className="whiteproduct">
                                     <div className="whiteproduct__thumb">
-                                        <Link href="/shop-details"><img src="/assets/img/shop/w-product-01.jpg" alt="product-thumb" /></Link>
+                                        <Link href="#"><img src="/assets/img/shop/w-product-01.jpg" alt="product-thumb" /></Link>
                                     </div>
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
-                                            <h5 className="whiteproduct__title"><Link href="/shop-details-2">CLCo. Incredible Paper Car</Link></h5>
+                                            <h5 className="whiteproduct__title"><Link href="#-2">CLCo. Incredible Paper Car</Link></h5>
                                             <span>$31.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
@@ -77,11 +77,11 @@ export default function WhiteProduct() {
                             <SwiperSlide>
                                 <div className="whiteproduct">
                                     <div className="whiteproduct__thumb">
-                                        <Link href="/shop-details"><img src="/assets/img/shop/w-product-02.jpg" alt="product-thumb" /></Link>
+                                        <Link href="#"><img src="/assets/img/shop/w-product-02.jpg" alt="product-thumb" /></Link>
                                     </div>
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
-                                            <h5 className="whiteproduct__title"><Link href="/shop-details-2">Progash Durable Granite Hat</Link></h5>
+                                            <h5 className="whiteproduct__title"><Link href="#-2">Progash Durable Granite Hat</Link></h5>
                                             <span>$31.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
@@ -94,11 +94,11 @@ export default function WhiteProduct() {
                             <SwiperSlide>
                                 <div className="whiteproduct">
                                     <div className="whiteproduct__thumb">
-                                        <Link href="/shop-details"><img src="/assets/img/shop/w-product-03.jpg" alt="product-thumb" /></Link>
+                                        <Link href="#"><img src="/assets/img/shop/w-product-03.jpg" alt="product-thumb" /></Link>
                                     </div>
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
-                                            <h5 className="whiteproduct__title"><Link href="/shop-details-2">Miklonda Co. Crafted Candles</Link></h5>
+                                            <h5 className="whiteproduct__title"><Link href="#-2">Miklonda Co. Crafted Candles</Link></h5>
                                             <span>$31.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
@@ -111,11 +111,11 @@ export default function WhiteProduct() {
                             <SwiperSlide>
                                 <div className="whiteproduct">
                                     <div className="whiteproduct__thumb">
-                                        <Link href="/shop-details"><img src="/assets/img/shop/w-product-04.jpg" alt="product-thumb" /></Link>
+                                        <Link href="#"><img src="/assets/img/shop/w-product-04.jpg" alt="product-thumb" /></Link>
                                     </div>
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
-                                            <h5 className="whiteproduct__title"><Link href="/shop-details-2">Weddonix Mediocre Silk Hat</Link></h5>
+                                            <h5 className="whiteproduct__title"><Link href="#-2">Weddonix Mediocre Silk Hat</Link></h5>
                                             <span>$31.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
@@ -128,11 +128,11 @@ export default function WhiteProduct() {
                             <SwiperSlide>
                                 <div className="whiteproduct">
                                     <div className="whiteproduct__thumb">
-                                        <Link href="/shop-details"><img src="/assets/img/shop/w-product-05.jpg" alt="product-thumb" /></Link>
+                                        <Link href="#"><img src="/assets/img/shop/w-product-05.jpg" alt="product-thumb" /></Link>
                                     </div>
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
-                                            <h5 className="whiteproduct__title"><Link href="/shop-details-2">Gorgeous Wooden Gloves</Link></h5>
+                                            <h5 className="whiteproduct__title"><Link href="#-2">Gorgeous Wooden Gloves</Link></h5>
                                             <span>$31.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
@@ -145,11 +145,11 @@ export default function WhiteProduct() {
                             <SwiperSlide>
                                 <div className="whiteproduct">
                                     <div className="whiteproduct__thumb">
-                                        <Link href="/shop-details"><img src="/assets/img/shop/w-product-01.jpg" alt="product-thumb" /></Link>
+                                        <Link href="#"><img src="/assets/img/shop/w-product-01.jpg" alt="product-thumb" /></Link>
                                     </div>
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
-                                            <h5 className="whiteproduct__title"><Link href="/shop-details-2">CLCo. Incredible Paper Car</Link></h5>
+                                            <h5 className="whiteproduct__title"><Link href="#-2">CLCo. Incredible Paper Car</Link></h5>
                                             <span>$31.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">
@@ -162,11 +162,11 @@ export default function WhiteProduct() {
                             <SwiperSlide>
                                 <div className="whiteproduct">
                                     <div className="whiteproduct__thumb">
-                                        <Link href="/shop-details"><img src="/assets/img/shop/w-product-02.jpg" alt="product-thumb" /></Link>
+                                        <Link href="#"><img src="/assets/img/shop/w-product-02.jpg" alt="product-thumb" /></Link>
                                     </div>
                                     <div className="whiteproduct__content d-flex justify-content-between align-items-center">
                                         <div className="whiteproduct__text">
-                                            <h5 className="whiteproduct__title"><Link href="/shop-details-2">Progash Durable Granite Hat</Link></h5>
+                                            <h5 className="whiteproduct__title"><Link href="#-2">Progash Durable Granite Hat</Link></h5>
                                             <span>$31.00</span>
                                         </div>
                                         <div className="whiteproduct__rating">

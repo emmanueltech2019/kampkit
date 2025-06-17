@@ -22,7 +22,7 @@ export default function SelectedProduct() {
                                             <Link href="#"><i className="fas fa-star" /></Link>
                                             <Link className="max-star" href="#"><i className="fas fa-star" /></Link>
                                         </div>
-                                        <h4 className="tpselectproduct__title"><Link href="/shop-details-2">Miko Wooden Bluetooth Speaker</Link></h4>
+                                        <h4 className="tpselectproduct__title"><Link href="#-2">Miko Wooden Bluetooth Speaker</Link></h4>
                                         <h5 className="tpselectproduct__price">$31.00</h5>
                                     </div>
                                 </div>
@@ -38,7 +38,7 @@ export default function SelectedProduct() {
                                             <Link href="#"><i className="fas fa-star" /></Link>
                                             <Link className="max-star" href="#"><i className="fas fa-star" /></Link>
                                         </div>
-                                        <h4 className="tpselectproduct__title"><Link href="/shop-details-2">Gorgeous Wooden Gloves</Link></h4>
+                                        <h4 className="tpselectproduct__title"><Link href="#-2">Gorgeous Wooden Gloves</Link></h4>
                                         <h5 className="tpselectproduct__price">$31.00</h5>
                                     </div>
                                 </div>
@@ -54,7 +54,7 @@ export default function SelectedProduct() {
                                             <Link href="#"><i className="fas fa-star" /></Link>
                                             <Link className="max-star" href="#"><i className="fas fa-star" /></Link>
                                         </div>
-                                        <h4 className="tpselectproduct__title"><Link href="/shop-details-2">Pinkol Enormous Granite Bottle</Link></h4>
+                                        <h4 className="tpselectproduct__title"><Link href="#-2">Pinkol Enormous Granite Bottle</Link></h4>
                                         <h5 className="tpselectproduct__price">$31.00</h5>
                                     </div>
                                 </div>
@@ -70,7 +70,7 @@ export default function SelectedProduct() {
                                             <Link href="#"><i className="fas fa-star" /></Link>
                                             <Link className="max-star" href="#"><i className="fas fa-star" /></Link>
                                         </div>
-                                        <h4 className="tpselectproduct__title"><Link href="/shop-details-2">Gorgeous Aluminum Table</Link></h4>
+                                        <h4 className="tpselectproduct__title"><Link href="#-2">Gorgeous Aluminum Table</Link></h4>
                                         <h5 className="tpselectproduct__price">$31.00</h5>
                                     </div>
                                 </div>
@@ -91,7 +91,7 @@ export default function SelectedProduct() {
                                             <Link href="#"><i className="fas fa-star" /></Link>
                                             <Link className="max-star" href="#"><i className="fas fa-star" /></Link>
                                         </div>
-                                        <h4 className="tpselectproduct__title"><Link href="/shop-details-2">Evo Lightweight Granite Shirt</Link></h4>
+                                        <h4 className="tpselectproduct__title"><Link href="#-2">Evo Lightweight Granite Shirt</Link></h4>
                                         <h5 className="tpselectproduct__price">$31.00</h5>
                                     </div>
                                 </div>
@@ -107,7 +107,7 @@ export default function SelectedProduct() {
                                             <Link href="#"><i className="fas fa-star" /></Link>
                                             <Link className="max-star" href="#"><i className="fas fa-star" /></Link>
                                         </div>
-                                        <h4 className="tpselectproduct__title"><Link href="/shop-details-2">CLCo. Incredible Paper Car</Link></h4>
+                                        <h4 className="tpselectproduct__title"><Link href="#-2">CLCo. Incredible Paper Car</Link></h4>
                                         <h5 className="tpselectproduct__price">$31.00</h5>
                                     </div>
                                 </div>
@@ -123,7 +123,7 @@ export default function SelectedProduct() {
                                             <Link href="#"><i className="fas fa-star" /></Link>
                                             <Link className="max-star" href="#"><i className="fas fa-star" /></Link>
                                         </div>
-                                        <h4 className="tpselectproduct__title"><Link href="/shop-details-2">Miko Wooden Bluetooth Speaker</Link></h4>
+                                        <h4 className="tpselectproduct__title"><Link href="#-2">Miko Wooden Bluetooth Speaker</Link></h4>
                                         <h5 className="tpselectproduct__price">$31.00</h5>
                                     </div>
                                 </div>
@@ -139,7 +139,7 @@ export default function SelectedProduct() {
                                             <Link href="#"><i className="fas fa-star" /></Link>
                                             <Link className="max-star" href="#"><i className="fas fa-star" /></Link>
                                         </div>
-                                        <h4 className="tpselectproduct__title"><Link href="/shop-details-2">Progash Durable Granite Hat</Link></h4>
+                                        <h4 className="tpselectproduct__title"><Link href="#-2">Progash Durable Granite Hat</Link></h4>
                                         <h5 className="tpselectproduct__price">$31.00</h5>
                                     </div>
                                 </div>
@@ -160,7 +160,7 @@ export default function SelectedProduct() {
                                             <Link href="#"><i className="fas fa-star" /></Link>
                                             <Link className="max-star" href="#"><i className="fas fa-star" /></Link>
                                         </div>
-                                        <h4 className="tpselectproduct__title"><Link href="/shop-details-2">Miko Wooden Bluetooth Speaker</Link></h4>
+                                        <h4 className="tpselectproduct__title"><Link href="#-2">Miko Wooden Bluetooth Speaker</Link></h4>
                                         <h5 className="tpselectproduct__price">$31.00</h5>
                                     </div>
                                 </div>
@@ -176,7 +176,7 @@ export default function SelectedProduct() {
                                             <Link href="#"><i className="fas fa-star" /></Link>
                                             <Link className="max-star" href="#"><i className="fas fa-star" /></Link>
                                         </div>
-                                        <h4 className="tpselectproduct__title"><Link href="/shop-details-2">Pinkol Enormous Granite Bottle</Link></h4>
+                                        <h4 className="tpselectproduct__title"><Link href="#-2">Pinkol Enormous Granite Bottle</Link></h4>
                                         <h5 className="tpselectproduct__price">$31.00</h5>
                                     </div>
                                 </div>
@@ -192,7 +192,7 @@ export default function SelectedProduct() {
                                             <Link href="#"><i className="fas fa-star" /></Link>
                                             <Link className="max-star" href="#"><i className="fas fa-star" /></Link>
                                         </div>
-                                        <h4 className="tpselectproduct__title"><Link href="/shop-details-2">Progash Durable Granite Hat</Link></h4>
+                                        <h4 className="tpselectproduct__title"><Link href="#-2">Progash Durable Granite Hat</Link></h4>
                                         <h5 className="tpselectproduct__price">$31.00</h5>
                                     </div>
                                 </div>
@@ -208,7 +208,7 @@ export default function SelectedProduct() {
                                             <Link href="#"><i className="fas fa-star" /></Link>
                                             <Link className="max-star" href="#"><i className="fas fa-star" /></Link>
                                         </div>
-                                        <h4 className="tpselectproduct__title"><Link href="/shop-details-2">Miko Wooden Bluetooth Speaker</Link></h4>
+                                        <h4 className="tpselectproduct__title"><Link href="#-2">Miko Wooden Bluetooth Speaker</Link></h4>
                                         <h5 className="tpselectproduct__price">$31.00</h5>
                                     </div>
                                 </div>
@@ -229,7 +229,7 @@ export default function SelectedProduct() {
                                             <Link href="#"><i className="fas fa-star" /></Link>
                                             <Link className="max-star" href="#"><i className="fas fa-star" /></Link>
                                         </div>
-                                        <h4 className="tpselectproduct__title"><Link href="/shop-details-2">Miko Wooden Bluetooth Speaker</Link></h4>
+                                        <h4 className="tpselectproduct__title"><Link href="#-2">Miko Wooden Bluetooth Speaker</Link></h4>
                                         <h5 className="tpselectproduct__price">$31.00</h5>
                                     </div>
                                 </div>
@@ -245,7 +245,7 @@ export default function SelectedProduct() {
                                             <Link href="#"><i className="fas fa-star" /></Link>
                                             <Link className="max-star" href="#"><i className="fas fa-star" /></Link>
                                         </div>
-                                        <h4 className="tpselectproduct__title"><Link href="/shop-details-2">Miko Wooden Bluetooth Speaker</Link></h4>
+                                        <h4 className="tpselectproduct__title"><Link href="#-2">Miko Wooden Bluetooth Speaker</Link></h4>
                                         <h5 className="tpselectproduct__price">$31.00</h5>
                                     </div>
                                 </div>
@@ -261,7 +261,7 @@ export default function SelectedProduct() {
                                             <Link href="#"><i className="fas fa-star" /></Link>
                                             <Link className="max-star" href="#"><i className="fas fa-star" /></Link>
                                         </div>
-                                        <h4 className="tpselectproduct__title"><Link href="/shop-details-2">Gorgeous Wooden Gloves</Link></h4>
+                                        <h4 className="tpselectproduct__title"><Link href="#-2">Gorgeous Wooden Gloves</Link></h4>
                                         <h5 className="tpselectproduct__price">$31.00</h5>
                                     </div>
                                 </div>
@@ -277,7 +277,7 @@ export default function SelectedProduct() {
                                             <Link href="#"><i className="fas fa-star" /></Link>
                                             <Link className="max-star" href="#"><i className="fas fa-star" /></Link>
                                         </div>
-                                        <h4 className="tpselectproduct__title"><Link href="/shop-details-2">Purab Enormous Miranda Bottle</Link></h4>
+                                        <h4 className="tpselectproduct__title"><Link href="#-2">Purab Enormous Miranda Bottle</Link></h4>
                                         <h5 className="tpselectproduct__price">$31.00</h5>
                                     </div>
                                 </div>

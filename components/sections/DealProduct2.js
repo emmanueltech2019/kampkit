@@ -27,7 +27,7 @@ export default function DealProduct2() {
                                         <del>$59.00</del>
                                     </div>
                                     <div className="tpdealcontact__text mb-35">
-                                        <h4 className="tpdealcontact__title mb-10"><Link href="/shop-details">Pro2 Abstract Folded Pots</Link></h4>
+                                        <h4 className="tpdealcontact__title mb-10"><Link href="#">Pro2 Abstract Folded Pots</Link></h4>
                                         <p>Elegant pink origami design three-dimensional view and decoration co-exist.
                                             Great for adding a decorative touch to any room’s decor.</p>
                                     </div>

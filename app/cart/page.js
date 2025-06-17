@@ -54,8 +54,8 @@ export default function Cart() {
                                             <div className="cart-page-total">
                                                 <h2>Cart totals</h2>
                                                 <ul className="mb-20">
-                                                    <li>Subtotal <span>${total.toFixed(2)}</span></li>
-                                                    <li>Total <span>${total.toFixed(2)}</span></li>
+                                                    <li>Subtotal <span>₦{total.toFixed(2)}</span></li>
+                                                    <li>Total <span>₦{total.toFixed(2)}</span></li>
                                                 </ul>
                                                 <Link href="/checkout" className="tp-btn tp-color-btn banner-animation">Proceed to Checkout</Link>
                                             </div>

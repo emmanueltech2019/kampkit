@@ -148,6 +148,11 @@
   .packages-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .package-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 }
 
 @media (min-width: 1024px) {

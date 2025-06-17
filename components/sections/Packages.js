@@ -5,23 +5,33 @@ import Image from "next/image";
 import "./PackageList.css";
 
 const packages = [
-  {
+    {
     title: "SURVIVAL PARK PRO",
     slug: "survival-park-pro",
-    image: "/assets/img/banner/m-banner1.jpeg",
-    price: "#15,000",
+    image: "/assets/img/banner/m-banner2.jpeg",
+    price: { 
+      "min": 15000,
+      "max": 15000
+    },
   },
   {
     title: "SMART CORPER",
     slug: "smart-corper",
-    image: "/assets/img/banner/m-banner2.jpeg",
-    price: "#20,000",
+    image: "/assets/img/banner/m-banner1.jpeg",
+    price: { 
+      "min": 20000,
+      "max": 20000
+    },
   },
+
   {
-    title: "PLATOON COMMANDER PACKAGE",
-    slug: "platoon-commander-package",
+    title: "Elite Camp Kit",
+    slug: "elite-camp-kit",
     image: "/assets/img/banner/m-banner3.jpeg",
-    price: "#25,000",
+    price: { 
+      "min": 25000,
+      "max": 25000
+    },
   },
 ];
 
@@ -49,7 +59,7 @@ const PackageList = () => {
       />
       <div className="package-info">
         <h2 className="package-title">{pkg.title}</h2>
-        <p className="package-price">{pkg.price}</p>
+        <p className="package-price">{pkg.price.min}</p>
       </div>
     </div>
   ))}
